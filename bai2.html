@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luyen tap toan tu 3 ngoi</title>
+</head>
+<body>
+	<script>
+		let login = prompt("Nhap login: ");
+
+		let message = (login == 'Employee') ?
+			'Hello' :
+				(login == 'Director') ?
+					'Greeting' :
+					(login == '') ?
+						'No login' :
+						'';
+						
+		alert(message);
+	</script>
+</body>
+</html>
